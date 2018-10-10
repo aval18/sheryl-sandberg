@@ -1,11 +1,22 @@
 /* Universal */
 
-body {
-  font-family: 'Montserrat';
+html {
+  font-size: 14px;
 }
 
-.container {
-  max-width: 960px;
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  background-color: dimgray;
+}
+
+ol, ul {
+  margin: 0;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
 }
 
 /* Font Face */
@@ -77,13 +88,23 @@ nav li {
  a:hover {
    color: #515356;
    font-weight: bold;
- }
+   text-decoration: none;
+}
 
  /* Banner */
 
- .banner {
+ .jumbotron {
    padding-top: 4rem;
-   background-image: url("./resources/images/headshot.jpg");
+   background-image: url("../images/headshot.jpg");
    background-size: cover;
+   color: white;
+   background-color: inherit;
+   height: 60rem;
+}
+
+.jumbotron img {
+  width: 100%;
+  opacity: 0.4;
+}
 
  }
