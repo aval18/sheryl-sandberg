@@ -95,16 +95,28 @@ nav li {
 
  .jumbotron {
    padding-top: 4rem;
-   background-image: url("../images/headshot.jpg");
-   background-size: cover;
    color: white;
    background-color: inherit;
-   height: 60rem;
+   height: 65rem;
 }
 
-.jumbotron img {
-  width: 100%;
-  opacity: 0.4;
+  .jumbotron img {
+    width: 100%;
 }
+
+  .jumbotron .box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+  .box h1 {
+    padding: 1rem;
+  }
+
+  .specification {
+    display: flex;
+  }
+
 
  }
