@@ -20,6 +20,15 @@ ol, ul {
   text-align: center;
 }
 
+.gold {
+  color: #c0b283;
+  font-weight: bold;
+}
+
+.content {
+  padding: 1rem;
+}
+
 /* Font Face */
 
 @font-face {
@@ -107,6 +116,11 @@ nav li {
     display: block;
     align-items: center;
     justify-content: center;
+    background-color: #F4F4F4;
+    color: #373737;
+    text-align: center;
+    margin: 2rem;
+    width: 27rem;
 }
 
   .box h1 {
@@ -115,6 +129,8 @@ nav li {
 
   .specification {
     display: flex;
+    justify-content: center;
+    margin: 3rem;
   }
 
 
