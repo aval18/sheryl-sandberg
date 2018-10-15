@@ -29,6 +29,7 @@ ol, ul {
   padding: 1rem;
 }
 
+
 /* Font Face */
 
 @font-face {
@@ -159,6 +160,7 @@ nav li {
     display: block;
     position: relative;
     align-items: center;
+    margin-bottom: 7rem;
   }
 
   .extra::after {
@@ -180,4 +182,43 @@ nav li {
     font-weight: bold;
     text-align: center;
     padding: 13rem;
+  }
+
+  /* Education */
+
+  #edu {
+    background-color: #F4F4F4;
+    color: #dcd0c0;
+  }
+
+  #edu div {
+    padding: 1rem;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .topic {
+    font-size: 6rem;
+  }
+
+  section {
+    padding: 1rem;
+    align-items: center;
+    display: block;
+  }
+
+  strong {
+    color: #F4F4F4;
+  }
+
+  .ask {
+    color: #373737;
+    font-size: 2.5rem;
+  }
+
+  .response {
+    font-size: 1.5rem;
+    color: #373737;
   }
