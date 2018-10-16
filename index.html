@@ -19,12 +19,12 @@
           <span>Sheryl</span>
           <span class="gold">Sandberg</span>
           <div class="menu">
-            <ul>
-              <li><a href="#edu">Education</a></li>
-              <li><a href="work">Work</a></li>
+            <ul id="mainNav">
+              <li class="active"><a href="#edu">Education</a></li>
+              <li><a href="#work">Work</a></li>
               <li><a href="#ex">Experiences</a></li>
               <li><a href="#op">Influences & Opportunities</a></li>
-              <li><a href="#op">Activism</a></li>
+              <li><a href="#act">Activism</a></li>
             </ul>
           </div>
         </div>
@@ -73,13 +73,14 @@
 
 <!-- Education -->
 
-    <section id="edu">
+    <section id="edu" class="colour-1 about">
       <div class="container">
         <div class="header">
           <i class="fas fa-graduation-cap fa-5x" data-aos="fade-down" data-aos-duration="1500"></i>
           <h1 class="title topic">Education</h1>
         </div>
-        <div class="school">
+
+        <div class="description">
           <div class="question">
             <span class="fa-stack">
               <span class="fas fa-circle fa-stack-2x"></span>
@@ -89,7 +90,8 @@
           </div>
           <p class="response">I lived in North Miami, so I went to Highland Oaks Middle school and transferred to North Miami Beach High School in Grade 10. I then went to Harvard for my undergrad in economics and MBA.</p>
         </div>
-        <div class="school">
+
+        <div class="description">
           <div class="question">
             <span class="fa-stack">
               <span class="fas fa-circle fa-stack-2x"></span>
@@ -102,6 +104,40 @@
       </div>
     </section>
 
+<!-- Work -->
+
+    <section id="work" class="colour-2 about">
+      <div class="container">
+        <div class="header">
+          <i class="fa fa-briefcase fa-5x"></i>
+          <h1 class="title topic">Work</h1>
+        </div>
+
+        <div class="description">
+          <div class="question">
+            <span class="fa-stack">
+              <span class="fas fa-circle fa-stack-2x"></span>
+              <strong class="fa-stack-1x">3</strong>
+            </span>
+            <span class="ask">Question 3 Here</span>
+          </div>
+          <p class="response"></p>
+        </div>
+
+        <div class="description">
+          <div class="question">
+            <span class="fa-stack">
+              <span class="fas fa-circle fa-stack-2x"></span>
+              <strong class="fa-stack-1x">4</strong>
+            </span>
+            <span class="ask">Question 4 Here</span>
+          </div>
+          <p class="response"></p>
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- For Scroll Animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -110,10 +146,8 @@
   </script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" href="./../main.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

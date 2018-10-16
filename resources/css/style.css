@@ -184,14 +184,9 @@ nav li {
     padding: 13rem;
   }
 
-  /* Education */
+  /* About Section Universal */
 
-  #edu {
-    background-color: #F4F4F4;
-    color: #dcd0c0;
-  }
-
-  #edu div {
+  .about div {
     padding: 1rem;
   }
 
@@ -201,6 +196,7 @@ nav li {
 
   .topic {
     font-size: 6rem;
+    padding-left: 1rem;
   }
 
   section {
@@ -209,16 +205,47 @@ nav li {
     display: block;
   }
 
-  strong {
-    color: #F4F4F4;
-  }
-
   .ask {
-    color: #373737;
     font-size: 2.5rem;
   }
 
   .response {
     font-size: 1.5rem;
+  }
+
+  /* Education/Colour 1 */
+
+  .colour-1 {
+    background-color: #F4F4F4;
+    color: #dcd0c0;
+  }
+
+  .colour-1 strong {
+    color: #F4F4F4;
+  }
+
+  .colour-1 .ask {
     color: #373737;
+  }
+
+  .colour-1 .response {
+    color: #373737;
+  }
+
+  /* Work */
+
+  .colour-2 .header {
+    color: #c0b283;
+  }
+
+  .colour-2 .ask {
+    color: #F4F4F4;
+  }
+
+  .colour-2 strong {
+    color: #373737;
+  }
+
+  .colour-2 .fa-stack {
+    color: #c0b283;
   }
