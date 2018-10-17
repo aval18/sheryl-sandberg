@@ -197,6 +197,7 @@ nav li {
   .topic {
     font-size: 6rem;
     padding-left: 1rem;
+    text-align: left;
   }
 
   section {
