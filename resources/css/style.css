@@ -268,3 +268,14 @@ nav li {
   .colour-2 .fa-stack {
     color: #c0b283;
   }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+  }
