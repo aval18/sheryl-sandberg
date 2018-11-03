@@ -120,6 +120,10 @@ nav li {
    color: black;
 }
 
+#mobileNav {
+  display: ;
+}
+
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .menu {
     display: none;
@@ -127,6 +131,16 @@ nav li {
 
   html {
     font-size: 11px;
+  }
+
+  #mobileNav {
+    display: block;
+    color: #373737;
+  }
+
+  #mobileNav li {
+    display: inline;
+    list-style: none;
   }
 
 }
@@ -152,7 +166,6 @@ nav li {
     text-align: center;
     margin: 2rem;
     width: 27rem;
-    border: 15px solid black;
 }
 
   .box h1 {
@@ -166,8 +179,18 @@ nav li {
   }
 
   @media only screen and (max-width: 480px) and (min-width: 320px) {
-    .specification {
-      display: none;
+    .jumbotron .box {
+      border: none;
+      margin: 1rem;
+      width: 20rem;
+    }
+
+    .box h1 {
+      padding: 0;
+    }
+
+    .title {
+      font-size: 2rem;
     }
   }
 
@@ -254,6 +277,17 @@ nav li {
 
   .response {
     font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 480px) and (min-width: 320px) {
+    .header h1 {
+      font-size: 4rem;
+    }
+
+    .ask {
+      font-size: 2rem;
+      font-weight: bold;
+    }
   }
 
   /* Education/Colour 1 */
