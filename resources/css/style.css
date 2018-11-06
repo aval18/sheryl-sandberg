@@ -124,7 +124,7 @@ nav li {
   display: none;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 678px){
   .menu {
     display: none;
   }
@@ -178,7 +178,7 @@ nav li {
     margin: 3rem;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 678px) {
     .jumbotron .box {
       border: none;
       margin: 1rem;
@@ -229,7 +229,7 @@ nav li {
     padding: 0;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 687px) {
     .quote {
       font-size: 2rem;
     }
@@ -279,7 +279,7 @@ nav li {
     font-size: 1.5rem;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 687px) {
     .header h1 {
       font-size: 4rem;
     }
